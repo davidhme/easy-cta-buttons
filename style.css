@@ -1,0 +1,80 @@
+.easy-button {
+    cursor: pointer;
+    font-family: inherit; /*"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;*/
+    line-height: normal;
+    margin: 0 0 1.25rem;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+    padding-top: 1.0625rem;
+    padding-bottom: 1rem;
+    -webkit-appearance: none;
+    border: none;
+    font-weight: normal !important;
+    
+}
+
+/* remove underline when hover */
+.easy-button:hover {text-decoration: none;}
+
+/* blue */
+.easy-button.blue { background-color: #3498db; color: white;}
+.easy-button.blue:hover{ background-color: #2980b9; color: white;}
+
+/* red */
+.easy-button.red { background-color: #e74c3c; color: white;}
+.easy-button.red:hover { background-color: #c0392b; color: white;}
+
+/* orange */
+.easy-button.orange {background-color: #e67e22; color: white;}
+.easy-button.orange:hover {background-color: #d35400; color: white;}
+
+/* green */
+.easy-button.green {background-color: #2ecc71; color: white;}
+.easy-button.green:hover {background-color: #27ae60; color: white;}
+
+/* yellow */
+.easy-button.yellow {background-color: #f1c40f; color: white;}
+.easy-button.yellow:hover {background-color: #f39c12; color: white;}
+
+/* purple */
+.easy-button.purple {background-color: #9b59b6; color: white;}
+.easy-button.purple:hover {background-color: #8e44ad; color: white;}
+
+/* button sizes */
+.easy-button.tiny {
+    padding-top: 0.55556rem;
+    padding-right: 1.11111rem;
+    padding-bottom: 0.61111rem;
+    padding-left: 1.11111rem;
+    font-size: 0.61111rem;
+}
+
+.easy-button.small {
+    padding-top: 0.77778rem;
+    padding-right: 1.55556rem;
+    padding-bottom: 0.83333rem;
+    padding-left: 1.55556rem;
+    font-size: 0.72222rem;
+}
+
+.easy-button.medium {
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1.0625rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+}
+
+.easy-button.large {
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1.05556rem;
+    padding-left: 2rem;
+    font-size: 1.11111rem;
+}
+
